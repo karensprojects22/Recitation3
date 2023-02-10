@@ -13,7 +13,7 @@ public class Circle
     private double radius;
 
     /**
-     * Defualt constructor that initializes an instance of Circle
+     * Default constructor that initializes an instance of Circle
      * to (0,0) with a radius of 1.0.
      */
     public Circle()
@@ -31,20 +31,24 @@ public class Circle
      */
     public Circle(double radius)
     {
-        // TODO - replace this line with your code
+        x = 0;
+        y = 0;
+        this.radius = radius;
     }
 
     /**
      * Constructor that initializes an instance of Circle to (x,y)
      * with a radius given by the parameter radius.
      *
-     * @param x the location of the center of this circle along the x coordiante
-     * @param y the location of the center of this circle along the y coordiante
+     * @param x the location of the center of this circle along the x coordinate
+     * @param y the location of the center of this circle along the y coordinate
      * @param radius the radius of this circle.
      */
     public Circle(double x, double y, double radius)
     {
-        // TODO - replace this line with your code
+       this.x = x;
+       this.y = y;
+       this.radius = radius;
     }
 
     //accessors
@@ -55,7 +59,8 @@ public class Circle
      */
     public double getRadius()
     {
-        return 0; // TODO - replace this line with your code
+        return radius;
+        /*no local variable with that name so don't need this.radius - the class already knows which radius I'm referring to*/
     }
 
     /**
@@ -65,7 +70,7 @@ public class Circle
      */
     public double getX()
     {
-        return 0; // TODO - replace this line with your code
+        return x;
     }
 
     /**
@@ -75,7 +80,7 @@ public class Circle
      */
     public double getY()
     {
-        return 0; // TODO - replace this line with your code
+        return y;
     }
 
     // mutator methods
@@ -86,7 +91,7 @@ public class Circle
      */
     public void setRadius(double radius)
     {
-        // TODO - replace this line with your code
+        this.radius = radius;
     }
 
     /**
@@ -96,7 +101,7 @@ public class Circle
      */
     public void setX(double x)
     {
-        // TODO - replace this line with your code
+        this.x = x;
     }
 
     /**
@@ -106,7 +111,7 @@ public class Circle
      */
     public void setY(double y)
     {
-        // TODO - replace this line with your code
+        this.y = y;
     }
 
     //================== DO NOT TOUCH CODE BELOW THIS LINE ==========================
