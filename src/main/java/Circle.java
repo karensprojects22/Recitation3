@@ -4,7 +4,7 @@
  *
  * @author (You Me)
  * @version (2018-02-05)
- */
+ *
 public class Circle
 {
     //instance variables
